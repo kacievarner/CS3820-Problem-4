@@ -1,0 +1,10 @@
+{
+    "name" : "CS:3820 F21 P4",
+    "image" : "docker.io/jgbm/ui_cs3820_f21_base:latest",
+    "extensions" : ["haskell.haskell", "eamodio.gitlens", "github.classroom"],
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/p4,type=bind,consistency=delegated",
+    "workspaceFolder": "/home/vscode/p4",
+
+    "remoteUser": "vscode"
+}
